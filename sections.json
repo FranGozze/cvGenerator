@@ -15,7 +15,7 @@
 			"start_date": 2021,
 			"end_date": "present",
 			"highlights": [
-				"90% of the courses completed",
+				"90% of the courses approved",
 				"Knownledge in algorithms, data structures, databases, and HPC"
 			]
 		},
@@ -56,6 +56,24 @@
 			],
 			"start_date": "2025-03",
 			"end_date": "2025-06"
+		}
+	],
+	"technologies": [
+		{
+			"label": "Languages",
+			"details": "PHP, JavaScript, Python, C++, C#, Haskell"
+		},
+		{
+			"label": "Frameworks",
+			"details": "Laravel, React"
+		},
+		{
+			"label": "Databases",
+			"details": "MySQL, SQL Server"
+		},
+		{
+			"label": "Tools",
+			"details": "Docker, Git, Linux"
 		}
 	]
 }
