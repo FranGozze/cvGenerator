@@ -22,7 +22,7 @@ def generate_pdf(cv_file, sections_file, design_file, output_yaml="cv.yaml", out
         yaml.dump(output, f, allow_unicode=True)
     
     subprocess.run(["rendercv", "render", output_yaml, "-o", output_pdf], check=True)
-
+    os.remove(output_yaml)
     print(f"PDF generado: {output_pdf}")
 
 
