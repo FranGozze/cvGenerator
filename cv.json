@@ -1,0 +1,16 @@
+{
+	"name": "Franco Gozzerino",
+	"phone": "+54 9 341 641 5691",
+	"social_networks": [
+		{
+			"network": "LinkedIn",
+			"username": "Franco Gozzerino"
+		},
+		{
+			"network": "GitHub",
+			"username": "FranGozze"
+		}
+	],
+	"email": "francogabrielgozzerino@gmail.com",
+	"sections": ["education", "experience", "projects", "technologies"]
+}
