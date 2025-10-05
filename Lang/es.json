@@ -1,0 +1,41 @@
+{
+	"language": "es",
+	"phone_number_format": "national",
+	"page_numbering_template": "NAME - Page PAGE_NUMBER of TOTAL_PAGES",
+	"last_updated_date_template": "Last updated in TODAY",
+	"date_template": "MONTH_ABBREVIATION YEAR",
+	"month": "mes",
+	"months": "meses",
+	"year": "año",
+	"years": "años",
+	"present": "Presente",
+	"to": "-",
+	"abbreviations_for_months": [
+		"En",
+		"Feb",
+		"Mzo",
+		"Abr",
+		"Mayo",
+		"Jun",
+		"Jul",
+		"Agt",
+		"Sept",
+		"Oct",
+		"Nov",
+		"Dic"
+	],
+	"full_names_of_months": [
+		"Enero",
+		"Febrero",
+		"Marzo",
+		"Abril",
+		"Mayo",
+		"Junio",
+		"Julio",
+		"Agosto",
+		"Septiembre",
+		"Octubre",
+		"Noviembre",
+		"Diciembre"
+	]
+}

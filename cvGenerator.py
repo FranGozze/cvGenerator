@@ -4,20 +4,25 @@ import os
 import yaml
 from pathlib import Path
 from datetime import date
+import sys
+import argparse
 
-def generate_pdf(cv_file, sections_file, design_file, output_yaml="cv.yaml", output_pdf="cv.pdf"):
-    with open(cv_file, encoding="utf-8") as f:
+def generate_pdf(cv="default", design="default", language="en", output_pdf="cv.pdf"):
+    output_yaml="cv.yaml"
+    with open(f"CVs/{cv}/base.json", encoding="utf-8") as f:
         data = json.load(f)
-    with open(design_file, encoding="utf-8") as f:
+    with open(f"Designs/{design}.json", encoding="utf-8") as f:
         design = json.load(f)
-    with open(sections_file, encoding="utf-8") as f:
+    with open(f"CVs/{cv}/Lang/{language}.json", encoding="utf-8") as f:
         loaded_sections = json.load(f)
+    with open(f"Lang/{language}.json", encoding="utf-8") as f:
+        lang = json.load(f)
     sections = {}
     for data_section in data.get("sections", []):
         if data_section in loaded_sections:
-            sections[data_section] = loaded_sections[data_section]
+            sections[loaded_sections[data_section]["title"]] = loaded_sections[data_section]["entries"]
     data["sections"] = sections
-    output = {"cv": data, "design": design, "rendercv_settings": {"date": date.today()}}
+    output = {"cv": data, "design": design, "rendercv_settings": {"date": date.today()}, "locale": lang}
     with open(output_yaml, "w", encoding="utf-8") as f:
         yaml.dump(output, f, allow_unicode=True)
     
@@ -28,8 +33,16 @@ def generate_pdf(cv_file, sections_file, design_file, output_yaml="cv.yaml", out
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generar CV en PDF")
+    parser.add_argument("--cv", default="default", help="Nombre del CV")
+    parser.add_argument("--design", default="default", help="Nombre del diseño")
+    parser.add_argument("--language", default="en", help="Idioma")
+    parser.add_argument("--output", default="cv.pdf", help="Nombre del archivo PDF de salida")
+    args = parser.parse_args()
     generate_pdf(
-        cv_file="cv.json",
-        sections_file="sections.json",
-        design_file="design.json",
+        cv=args.cv,
+        design=args.design,
+        language=args.language,
+        output_pdf=args.output
     )
+

@@ -18,7 +18,7 @@
 		"last_updated_date_and_page_numbering": "rgb(128, 128, 128)"
 	},
 	"text": {
-		"font_family": "Raleway",
+		"font_family": "XCharter",
 		"font_size": "10pt",
 		"leading": "0.6em",
 		"alignment": "justified",
@@ -29,21 +29,21 @@
 		"use_external_link_icon": false
 	},
 	"header": {
-		"name_font_family": "Raleway",
+		"name_font_family": "XCharter",
 		"name_font_size": "30pt",
 		"name_bold": true,
 		"photo_width": "3.5cm",
 		"vertical_space_between_name_and_connections": "0.7cm",
 		"vertical_space_between_connections_and_first_section": "0.7cm",
 		"horizontal_space_between_connections": "0.3cm",
-		"connections_font_family": "Raleway",
+		"connections_font_family": "XCharter",
 		"separator_between_connections": "",
 		"use_icons_for_connections": true,
 		"alignment": "center"
 	},
 	"section_titles": {
 		"type": "with-parial-line",
-		"font_family": "Raleway",
+		"font_family": "XCharter",
 		"font_size": "1.4em",
 		"bold": false,
 		"small_caps": false,

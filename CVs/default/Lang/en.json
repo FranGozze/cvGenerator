@@ -1,0 +1,91 @@
+{
+	"education": {
+		"title": "Education",
+		"entries": [
+			{
+				"degree": "Tech",
+				"institution": "Instituto Politécnico Superior \"General San Martin\"",
+				"area": "Computer Technician",
+				"start_date": 2015,
+				"end_date": 2020
+			},
+
+			{
+				"degree": "BS",
+				"institution": "Facultad de Ciencias Exactas y Agrimensura (UNR)",
+				"area": "Computer Science",
+				"start_date": 2021,
+				"end_date": "present",
+				"highlights": [
+					"90% of the courses approved",
+					"Knownledge in algorithms, data structures, databases, and HPC"
+				]
+			},
+			{
+				"degree": "Cert",
+				"institution": "Cambridge English",
+				"area": "English Language Proficiency, B2",
+				"date": "2024-12"
+			}
+		]
+	},
+	"experience": {
+		"title": "Experience",
+		"entries": [
+			{
+				"company": "Visoft",
+				"position": "Full Stack Developer",
+				"start_date": "2020-12",
+				"end_date": "2022-08",
+				"highlights": [
+					"Creation of API RESTful services using PHP and C#",
+					"Creation of web applications using PHP and React",
+					"Database management using MySQL and SQL Server",
+					"Self-taught in new technologies as, such as React and API RESTful services"
+				]
+			}
+		]
+	},
+	"projects": {
+		"title": "Projects",
+		"entries": [
+			{
+				"name": "[Survey System](https://github.com/FranGozze/laravelApi-Survey)",
+				"summary": "A web application to manage Surveys and collect responses. This project was developed  with the purpose of learning Laravel and Docker, so it includes features like user authentication, users roles, survey creation, and response collection.",
+				"highlights": ["Technologies: Laravel (PHP), React, Docker"],
+				"date": "2025-09"
+			},
+			{
+				"name": "[Fluid Simulator](https://github.com/FranGozze/navier-stokes)",
+				"summary": "A 2D fluid simulator based on the Navier-Stokes equations. The simulator allows users to visualize fluid dynamics in real-time. This project was developed as part of a university assignment to learn HPC techniques.",
+				"highlights": [
+					"Technologies: C++, OpenGL, CUDA",
+					"Final speedup of 270x using GPU acceleration"
+				],
+				"start_date": "2025-03",
+				"end_date": "2025-06"
+			}
+		]
+	},
+	"technologies": {
+		"title": "Technologies",
+		"entries": [
+			{
+				"label": "Languages",
+				"details": "PHP, JavaScript, Python, C++, C#, Haskell"
+			},
+			{
+				"label": "Frameworks",
+				"details": "Laravel, React"
+			},
+			{
+				"label": "Databases",
+				"details": "MySQL, SQL Server"
+			},
+			{
+				"label": "Tools",
+				"details": "Docker, Git, Linux"
+			}
+		]
+	}
+}
