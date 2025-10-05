@@ -52,7 +52,10 @@
 			{
 				"name": "[Survey System](https://github.com/FranGozze/laravelApi-Survey)",
 				"summary": "A web application to manage Surveys and collect responses. This project was developed  with the purpose of learning Laravel and Docker, so it includes features like user authentication, users roles, survey creation, and response collection.",
-				"highlights": ["Technologies: Laravel (PHP), React, Docker"],
+				"highlights": [
+					"Technologies: Laravel (PHP), React, Docker",
+					"[Link to the project](https://github.com/FranGozze/laravelApi-Survey)"
+				],
 				"date": "2025-09"
 			},
 			{
@@ -60,7 +63,8 @@
 				"summary": "A 2D fluid simulator based on the Navier-Stokes equations. The simulator allows users to visualize fluid dynamics in real-time. This project was developed as part of a university assignment to learn HPC techniques.",
 				"highlights": [
 					"Technologies: C++, OpenGL, CUDA",
-					"Final speedup of 270x using GPU acceleration"
+					"Final speedup of 270x using GPU acceleration",
+					"[Link to the project](https://github.com/FranGozze/navier-stokes)"
 				],
 				"start_date": "2025-03",
 				"end_date": "2025-06"
